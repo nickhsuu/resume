@@ -1,5 +1,22 @@
+html,
+body {
+    /* align pdf in center */
+   
+}
+
+#pdf {
+    height: 90%;
+   border: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+}
+
 iframe {
-    border: none;
+    border: 0;
+    height: 100%;
 }
 
 #signature {
@@ -9,8 +26,8 @@ iframe {
     background-color: #323639;
     width: 100%;
     padding: 1vh 0 1vh 0;
-    align-items: center;
-    justify-content: center;
+    
+    
 }
 
 #signature p,
@@ -20,12 +37,7 @@ iframe {
     color: #eee;
 }
 
-html,body {
-    /* align pdf in center */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 #signature button {
     border: 0;
