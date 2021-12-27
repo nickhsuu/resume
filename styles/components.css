@@ -27,3 +27,9 @@ iframe {
 #signature a {
     text-decoration: none;
 }
+
+@media (max-width: 720px) {
+    #signature button {
+        margin: 0.5rem 1rem 0;
+    }
+}
