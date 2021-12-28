@@ -3,7 +3,7 @@ body {
     /* align pdf in center */
    
 }
-
+ 
 #pdf {
     height: 85%;
     border: 0;
@@ -31,7 +31,7 @@ iframe {
     text-align: center;
     background-color: #323639;
     width: 100%;
-    padding: 1vh 0 1vh 0;
+    padding: 1vh 0 0 0;
     
     
 }
